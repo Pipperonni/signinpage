@@ -1,0 +1,136 @@
+
+
+.box{
+    margin: 1px;
+    width: 400px;
+    display: flex;
+    gap: 5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 40px 0;
+   
+
+}
+.boxes1{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 15px;
+
+    border: 1px solid gray;
+}
+
+.password{
+    width: 395px;
+}
+
+.boxpass{
+    display: flex;
+    gap: 15rem;
+    margin: 0;
+    padding: 5px 5px 0px;   
+}
+
+.flexc{
+    display: flex;
+    justify-content: center;
+    margin: 20px 2px;
+    background-color: gold;
+    width: 395px;
+    height: 30px;
+    text-decoration: none;
+    color: rgb(9, 2, 2);
+    padding: 5px;
+    border-radius: 3px;
+    border-color: gray 2px;
+    font-size: 15px;
+    
+}
+.help{
+    text-decoration: none;
+    justify-content: baseline;
+    color: blue;
+}
+.fpass{
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    color: blue;
+
+    
+}
+.input{
+    height: 40px;
+    display: flex;
+    margin: 0;
+    max-width: auto;
+    width: 400px;
+}
+.boxes2{
+    width: 400px;
+    background-color: lightgray;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    
+}
+h2{
+    width: 400px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 0;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+
+}
+h2 span{
+    background-color: #fff;
+    padding: 0 10px;
+
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 100px;
+    
+}
+#imgl{
+    width: 400px;
+    height: 0px;
+    background-color: gray;
+    padding: 100px;
+}
+.finfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    
+    
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    
+}
+.tinfo{
+    text-decoration: none;
+    color: blue;
+}

@@ -13,6 +13,7 @@
     width: 100%;
     align-items: center;
     margin: 40px 0;
+    
    
 
 }
@@ -23,7 +24,7 @@
     flex-direction: column;
     margin: 5px;
     padding: 15px;
-
+   
     border: 1px solid gray;
 }
 
@@ -35,7 +36,9 @@
     display: flex;
     gap: 15rem;
     margin: 0;
-    padding: 5px 5px 0px;   
+    padding: 5px 5px 0px; 
+    
+    width: 100px;  
 }
 
 .flexc{
@@ -55,15 +58,20 @@
 }
 .help{
     text-decoration: none;
-    justify-content: baseline;
+    justify-content: left;
+    width: 150px;
     color: blue;
+    
 }
 .fpass{
     text-decoration: none;
-    width: 150px;
-    height: 30px;
+    width: auto;
+    height: 40px;
     color: blue;
-
+    padding: 0 40px 0 0;
+    
+    
+    
     
 }
 .input{
